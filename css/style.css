@@ -108,24 +108,57 @@
 	}
     
 /* -------------------------------- text styles -------------------------------- */
-
+	body, p, li, ul, span{
+	    line-height: 1.6;
+	    color: #6c7d8e;
+	    font-size: 0.875rem;
+	    line-height: 1.4;
+	}
 
 	.fa {
 		font-family: 'FontAwesome'
 	}
+	.article-list-item p {
+		display: inline-block;
+	}
 
 	li.article-list-item a {
-		color: #ccc;
+		color: #65A0DA;
 		text-decoration: underline;
 	}
-	p.date {
+	li p.date {
+		text-transform: uppercase;
+		font-size: .8em;
+		font-weight: bold;
 		opacity:.5;
+	}
+
+	h3 {
+		color: #45505B;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+
+	.source-link {
+		text-transform: uppercase;
+		font-size: .6em;
+		margin: auto 8px;
+		font-weight: bold;
 	}
 
 /* -------------------------------- re-useable layout class -------------------------------- */
 
 .article-list-item {
 	margin: 20px auto;
+}
+
+.content-snippet {
+	margin-top: 50px;
+}
+
+.space-2000 {
+	height: 2000px;
 }
 
 /* -------------------------------- images -------------------------------- */
